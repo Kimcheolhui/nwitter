@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Kimcheolhui/nwitter/static/css/main.ff37f1a6.css",
+    "main.js": "/Kimcheolhui/nwitter/static/js/main.4e7f1a72.js",
+    "static/js/787.c7888fcc.chunk.js": "/Kimcheolhui/nwitter/static/js/787.c7888fcc.chunk.js",
+    "index.html": "/Kimcheolhui/nwitter/index.html",
+    "main.ff37f1a6.css.map": "/Kimcheolhui/nwitter/static/css/main.ff37f1a6.css.map",
+    "main.4e7f1a72.js.map": "/Kimcheolhui/nwitter/static/js/main.4e7f1a72.js.map",
+    "787.c7888fcc.chunk.js.map": "/Kimcheolhui/nwitter/static/js/787.c7888fcc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff37f1a6.css",
+    "static/js/main.4e7f1a72.js"
+  ]
+}
