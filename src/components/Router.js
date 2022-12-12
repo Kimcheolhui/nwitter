@@ -1,5 +1,11 @@
 import React from "react";
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter,
+  HashRouter,
+  Navigate,
+  Route,
+  Routes,
+} from "react-router-dom";
 
 import Home from "routes/Home";
 import Auth from "routes/Auth";
@@ -8,7 +14,7 @@ import Navigation from "components/Navigation";
 
 const AppRouter = ({ refreshUser, isLoggedIn, userObj }) => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       {isLoggedIn && <Navigation userObj={userObj} />}
       <div
         style={{
@@ -40,7 +46,7 @@ const AppRouter = ({ refreshUser, isLoggedIn, userObj }) => {
           )}
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
